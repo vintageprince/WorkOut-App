@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B27CF732A55EF6D0018F738 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B27CF722A55EF6D0018F738 /* OverviewNavBar.swift */; };
+		2B27CF752A55EFCA0018F738 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B27CF742A55EFCA0018F738 /* BaseView.swift */; };
 		72A20A412A4C52B8007C993E /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A20A402A4C52B8007C993E /* NavBarController.swift */; };
 		72A20A452A4C55E7007C993E /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A20A442A4C55E7007C993E /* BaseController.swift */; };
 		72A20A472A4C5A4C007C993E /* UIView + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A20A462A4C5A4C007C993E /* UIView + ext.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B27CF722A55EF6D0018F738 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
+		2B27CF742A55EFCA0018F738 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		72A20A402A4C52B8007C993E /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
 		72A20A442A4C55E7007C993E /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		72A20A462A4C5A4C007C993E /* UIView + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + ext.swift"; sourceTree = "<group>"; };
@@ -73,6 +77,7 @@
 				72E08FF42A4A0E6100BC6FBB /* TabBarController.swift */,
 				72A20A402A4C52B8007C993E /* NavBarController.swift */,
 				72A20A442A4C55E7007C993E /* BaseController.swift */,
+				2B27CF742A55EFCA0018F738 /* BaseView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -114,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				72A20A542A4CA411007C993E /* SecondaryButton.swift */,
+				2B27CF722A55EF6D0018F738 /* OverviewNavBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -254,6 +260,7 @@
 			files = (
 				72A20A522A4C5EFA007C993E /* SettingsController.swift in Sources */,
 				72E08FE32A4A092900BC6FBB /* OverviewController.swift in Sources */,
+				2B27CF732A55EF6D0018F738 /* OverviewNavBar.swift in Sources */,
 				72A20A472A4C5A4C007C993E /* UIView + ext.swift in Sources */,
 				72E08FF52A4A0E6100BC6FBB /* TabBarController.swift in Sources */,
 				72E08FDF2A4A092900BC6FBB /* AppDelegate.swift in Sources */,
@@ -263,6 +270,7 @@
 				72A20A412A4C52B8007C993E /* NavBarController.swift in Sources */,
 				72E08FFB2A4A128800BC6FBB /* Resourses.swift in Sources */,
 				72E08FF82A4A100D00BC6FBB /* UIColor + ext.swift in Sources */,
+				2B27CF752A55EFCA0018F738 /* BaseView.swift in Sources */,
 				72A20A452A4C55E7007C993E /* BaseController.swift in Sources */,
 				72E08FE12A4A092900BC6FBB /* SceneDelegate.swift in Sources */,
 			);
