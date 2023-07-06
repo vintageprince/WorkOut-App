@@ -19,7 +19,7 @@ extension OverviewController {
     override func addViews() {
         super.addViews()
         
-        view.addSubview(navBar)
+        view.addView(navBar)
     }
     
     override func layoutViews() {
@@ -36,7 +36,6 @@ extension OverviewController {
         super.configure()
         
         navigationController?.navigationBar.isHidden = true
-        navBar.translatesAutoresizingMaskIntoConstraints = false
     }
 }
 
