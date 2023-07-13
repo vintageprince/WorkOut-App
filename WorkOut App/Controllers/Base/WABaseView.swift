@@ -1,5 +1,5 @@
 //
-//  BaseView.swift
+//  WABaseView.swift
 //  WorkOut App
 //
 //  Created by Виктория Заканавская on 05.07.2023.
@@ -7,12 +7,12 @@
 
 import UIKit
 
-class BaseView: UIView {
+class WABaseView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        addViews()
-        layoutViews()
+        setupViews()
+        constraintViews()
         configureViews()
     }
     
@@ -21,9 +21,12 @@ class BaseView: UIView {
     }
 }
 
-@objc extension BaseView {
-    func addViews() {}
-    func layoutViews() {}
-    func configureViews() {}
+@objc extension WABaseView {
+    func setupViews() {}
+    func constraintViews() {}
+    
+    func configureViews() {
+        backgroundColor = .white
+    }
     
 }
